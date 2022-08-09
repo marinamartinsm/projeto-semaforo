@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 5px;
+  width: 5%;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+#red:hover {
+  border: 2px solid red;
+  color: red;
+}
+
+#yellow:hover {
+  border: 2px solid yellow;
+  color: yellow;
+}
+
+#green:hover {
+  border: 2px solid green;
+  color: green;
+}
+
+#automatic:hover {
+  border: 2px solid blue;
+  color: blue;
+}
+
+#stop:hover {
+  border: 2px solid purple;
+  color: purple;
+}
